@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 10vh;
+}
+
+.center{
+    text-align: center;
+}
+.custom-input {
+    border: 2px solid #142;
+    background-color: transparent;
+    color: #0A2E16;
+}
+
+textarea{
+    background: transparent;
+    border: 2px solid #142;
+    color: #0A2E16;
+}
+::placeholder {
+    color: #0A2E16;
+    opacity: 1;
+}
+::-ms-input-placeholder {
+    color: #0A2E16;
+}
+.input-group-text {
+    color: #114422;
+}
+footer {
+    text-align: center;
+    position: absolute;
+    color: #142;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    background-image: url('../image.JPEG');
+    background-repeat: initial;
+    background-size: cover;
+}
+
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: normal;
+    height: 290px;
+}
+.image-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: auto;
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+h1 {
+    font-size: 35px;
+    color: #142;
+}
+
+h2 {
+    color: #142;
+}
+h4 {
+    color: #142;
+}
+
+.form-container {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.table-sheet {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    max-width: 1030px;
+    max-height: 655px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #142;
+    font-size: 20px;
+    width: 100px;
+}
+.btn-custom-outline {
+    box-shadow: none;
+    color: #0A2E16;
+    border: 2px solid #142;
+    background-color: transparent;
+}
+.btn-link{
+    color: #142;
+}
+.custom-pre {
+    border-color: #142;
+    width: 600px;
+    height: 400px;
+}
+
+.btn-custom-outline:hover {
+    color: white;
+    box-shadow: none;
+    background-color: #142;
+    border-color: #142;
+}
+
+
+.table-sheet table {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    max-width: inherit;
+    max-height: inherit;
+    overflow: auto;
+}
+
+.table-sheet th, .table-sheet td {
+    color: #142;
+    text-align: center;
+    padding: 2px;
+}
+
+.table-sheet table, .table-sheet th, .table-sheet td {
+    border: 3px solid black;
+}

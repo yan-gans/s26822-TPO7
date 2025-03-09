@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}">
+<head th:replace="~{fragments :: myHead}">
+    <meta charset="UTF-8">
+    <title>Exception</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/stylesheets/style.css}" href="../static/stylesheets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body th:with="header=${name}">
+<main layout:fragment="content" class="centered-container">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<audio autoplay loop>
+    <source src="work.mp3" type="audio/mpeg">
+</audio>
+<img src="real.gif" alt="Right Image" style="position: absolute; bottom: 10px; right: 10px;">
+<img src="wan.gif" alt="Right Image" style="position: absolute; bottom: 350px; right: 10px;">
+<img src="cry.gif" alt="Left Image" style="position: absolute; bottom: 350px; left: 10px;">
+<img src="nic.gif" alt="Left Image" style="position: absolute; bottom: 10px; left: 10px;">
+<h4 th:text="${msg}"></h4>
+<a href="newCode" class="btn btn-link">Return</a>
+</main>
+</body>
+</html>

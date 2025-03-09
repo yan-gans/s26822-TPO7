@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="myHead">
+    <meta charset="UTF-8">
+    <title th:text="${title}"></title>
+    <link rel="stylesheet" type="text/css" th:href="@{/stylesheets/style.css}" href="../static/stylesheets/style.css">
+</head>
+<body>
+<header class="center" th:fragment="myHeader">
+    <img class="logo" src="../static/mew.png" th:src="@{mew.png}" alt="BE Logo">
+    <img class="logo" src="../static/bill.png" th:src="@{bill.png}" alt="Guitar Logo">
+    <h1 th:text="${header}"></h1>
+</header>
+<footer th:fragment="myFooter">
+    HIT ME HARD AND SOFT ©2024
+</footer>
+</body>
+</html>

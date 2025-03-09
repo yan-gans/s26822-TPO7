@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: s26822-TPO7
+server:
+  servlet:
+    context-path: /codeFormater
